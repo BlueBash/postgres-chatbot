@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "postgres-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10"
+streamlit = "^1.39.0"
+langchain-community = "^0.3.1"
+langchain-google-genai = "^2.0.0"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
