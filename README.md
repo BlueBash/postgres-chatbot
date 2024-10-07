@@ -26,17 +26,17 @@ https://github.com/langchain-tech/postgres-chatbot.git
 cd postgres-chatbot
 ```
 
-**2. Create a Virtual Environment**
-It is recommended to create a virtual environment to manage dependencies:
+**2. Install Dependencies with Poetry**
+It is recommended to use poetry to manage dependencies. Install the necessary packages and create a virtual environment:
+
 ```
-python -m venv venv
-source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
+poetry install
 ```
 
-**3. Install Dependencies**
-Install the necessary packages listed in the requirements.txt file:
+**3. Activate the virtual environment:**
+after installation the necessary packages activate the virtual env:
 ```
-pip install -r requirements.txt
+poetry shell
 ```
 
 
